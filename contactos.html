@@ -9,13 +9,13 @@
     <title>Blog De Café</title>
 </head>
 <body>
-    <header>
+    <header><!--el encabezado de la pagina con imagen, menu de navegacion y texto-->
         <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo">
-        <h1 id="contactos">Blog de Café con consejos y Cursos</h1>
+        <h1 id="/contactos.html">Blog de Café con consejos y Cursos</h1>
         <h3>Aprende de los expertos con la mejores resetas y consejos</h3>
         <img src="img/banner.jpg" width="700" height="400" alt="banner">
         <div>
-            <nav>
+            <nav><!--un menu de navegacion mas corto -->
                 <ul>
                     <li><a href="#nosotros">Nosotros</a></li>
                     <li><a href="#cursos">Cursos</a></li>
@@ -24,15 +24,16 @@
             </nav>
         </div>
        </header> 
-       <main>
+       <main><!--contenido principal de la pagina web-->
         <img src="img/contacto.jpg" width="700" height="400" alt="café">
         <h2 id="contactos">Contacto</h2>
         <div class="contenedor">
-            <form action="/enviar formulario" method="post"></form>
+            <form action="/enviar formulario" method="post"><!--Para enviar el formulario a una direccion-->
         </div>
         <div class="formulario">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" required minlength="2" maxlength="10" placeholder="Tu Nombre">
+            <label for="name">Nombre</label><!--es lo que aparece en al costado del espacio que hay que llenar-->
+            <input type="text" id="name" name="name" 
+            required minlength="2" maxlength="10" placeholder="Tu Nombre"><!--El espacio que hay que llenar con especificaciones-->
         </div><br>
         <div class="formulario">
             <label for="email">E-mail</label>
@@ -40,22 +41,25 @@
         </div><br>
         <div class="formulario">
             <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" required minlength="10" maxlength="500" placeholder="Escribe aqui"></textarea><br>
+            <textarea name="mensaje" id="mensaje" 
+            required minlength="10" maxlength="500" placeholder="Escribe aqui"></textarea><br><!--Sirve para hacer un recuadro 
+            mas grande para el mensaje-->
         </div><br>
         <button>Enviar</button>
+    </form>
         <hr>
        </main>
-       <footer>
+       <footer><!--Piede de pagina con imagen, un menu de navegacion -->
         <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo">
         <p>Elaboracion de hojas Estilo-GACC-&copy;</p>
         <div>
             <nav>
                 <ul>
-                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="index.html" target="_blank">Inicio</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
                     <li><a href="#cursos">Cursos</a></li>
                     <li><a href="#contactos">Contactos</a></li>
-                    <p><a href="/index.html">Volver a inicio</a></p>
+                    <p><a href="index.html" target="_blank">Volver a inicio</a></p>
                 </ul>
             </nav>
         </div>

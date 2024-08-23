@@ -10,35 +10,36 @@
 </head>
 <body>
    <header><!--En el header puse lo ques el banner, un H1, el logo  y un navegador -->
-    <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo">
-    <h1 id="inicio">Blog de Café con consejos y Cursos</h1>
+    <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo" id="index.html">
+    <h1>Blog de Café con consejos y Cursos</h1>
     <h3>Aprende de los expertos con la mejores resetas y consejos</h3>
     <img src="img/banner.jpg" width="700" height="400" alt="banner">
     <div>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="/contactos.html">Contactos</a></li>
+                <li id="#inicio"><a href="index.html">Inicio</a></li>
+                <li id="#nosotros"><a href="nosotros">Nosotros</a></li>
+                <li id="#cursos"><a href="cursos">Cursos</a></li>
+                <li id="#contactos"><a href="contactos.html" target="_blank">Contactos</a></li>
             </ul>
         </nav>
     </div>
    </header> 
    <main> <!--En main que tiene seccioness que tienen imagenes, parrafos, -->
-    <h2 id="nosotros">Nuestro Blog</h2>
+    <h2 id="#nosotros">Nuestro Blog</h2>
     <h3>Un audio intrumental para poder leer pagina más comoda mente</h3>
-    <audio src="media/Instrumental.mp3" type="mp3" controls></audio>
+    <audio src="media/Instrumental.mp3" type="mp3" controls></audio><!--para meter audios mp3-->
     <Section>
         <img src="img/Captura de pantalla 2024-08-22 141648.png" alt="Café">
         <h3>Tipo de Grano de Café</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque debitis 
             pariatur inventore dipisci reprehenderit corporis eum 
             aspernatur esse voluptatibus, suscipit fugit illo assumenda blanditiis soluta 
-            provident quisquam tenetur. Doloribus, enim.</p>
+            provident quisquam tenetur. Doloribus, enim.</p><!--Sirve para poner parrafos-->
             <button>LEER ENTRADA</button>
-    <hr>
+    <hr><!--Sirve para poner una linea-->
         <img src="img/Captura de pantalla 2024-08-22 141737.png" alt="Café">
+        <!--img:sirve para meter imagenes  alt: pequeña descricpcion de la foto-->
         <h3>3 Deliciosas recetas para Café</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque debitis 
             pariatur inventore dipisci reprehenderit corporis eum 
@@ -53,14 +54,14 @@
            aspernatur esse voluptatibus, suscipit fugit illo assumenda blanditiis soluta 
            provident quisquam tenetur. Doloribus, enim.</p>
            <button>LEER ENTRADA</button> 
-           <p><a href="inicio">Volver a inicio</a></p>
+           <p><a href="#inicio">Volver a inicio</a></p>
     <hr>
         <h3>Un video sobre el café</h3>
-        <iframe src="media/Link_VideoYoutube.txt"></iframe>
+        <iframe src="https://www.youtube.com/embed/df3JeXVWYWA" controls></iframe>
         <hr>
     </Section><br>
-    <h2 id="cursos">Nuestro Cursos y Talleres</h2>
-    <aside>
+    <h2 id="#cursos">Nuestro Cursos y Talleres</h2>
+    <aside><!--barra lateral de iformacion -->
         <div>
             <h3>Técnicas de extracción de café</h3>
             <p><strong>Precio</strong>: Gratis</p>
@@ -68,28 +69,29 @@
             <button>MÁS INFORMACÍON</button>
         </div>
         <hr>
-        <div>
+        <div><!--contenedores para que se haya un mejor acomodo-->
             <h3>4 Recetas de café para principiantes</h3>
             <p><strong>Precio</strong>: Gratis</p>
             <p><strong>Cupo</strong>: 20</p>
             <button>MÁS INFORMACÍON</button>
         </div>
-        <p><a href="inicio">Volver a inicio</a></p>
+        <p><a href=#inicio>Volver a inicio</a></p>
     </aside>
     <hr>
     <h2>Más sobre café</h2>
     <p><a href="media/TodoCafé.pdf" type="documento pdf" target>Todo Café</a></p>
+    <!--un documento pdf para tener mas informacion sobre el cafe -->
    </main>
-   <footer>
-    <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo">
+   <footer><!--Piede de pagina con imagen, un menu de navegacion -->
+   <img src="img/Captura de pantalla 2024-08-22 141606.png" width="90" height="90" alt="logotipo">
     <p>Elaboracion de hojas Estilo-GACC-&copy;</p>
     <div>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#cursos">Cursos</a></li>
-                <li><a href="/contactos.html">Contactos</a></li>
+                <li><a href="contactos.html" target="_blank" >Contactos</a></li>
             </ul>
         </nav>
     </div>
